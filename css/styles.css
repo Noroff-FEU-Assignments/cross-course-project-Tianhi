@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500px;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 10%;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 0.8701855742296919) 0%,
+    rgba(112, 112, 112, 0.7805497198879552) 31%,
+    rgba(29, 37, 64, 0.8477766106442577) 83%
+  );
+}
+
+.logo {
+  width: 93px;
+  height: 55px !important;
+  transform: none;
+  transition: none;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav__links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #0505ff;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #1d2540;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover {
+  background-color: #3f2873;
+}
