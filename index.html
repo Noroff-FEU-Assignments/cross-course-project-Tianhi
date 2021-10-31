@@ -12,20 +12,29 @@
   <body>
     <header>
       <a href="index.html"><img  src="images/GameHub_Logo.png" alt="logo" class="logo" /></a> 
-       <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-            <input type="checkbox" id="hamburger-menu">
+      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <input type="checkbox" id="hamburger-menu"> 
+     <label class="menu_dropdown" for="menu-dropdown"></label> 
+     <input type="checkbox" id="menu_dropdown"> 
+            <section class="nav__links menu_dropdown">
+              <li><a href="index.html"><button class="active">Home</button></a></li>
+              <li><a href="top-games.html"><button>Top Games</button></a></li>
+              <li><a href="news.html"><button>News</button></a></li>
+              <li><a href="pre-order.html"><button>Pre-order</button></a></li>
+              <li><a href="sell-buy.html"><button>Sell/buy</button></a></li>
+            </section>
       <nav>
         <ul class="nav__links">
-          <li><a href="index.html"><button class="active">Home</button></a></li>
+        <li><a href="index.html"><button class="active">Home</button></a></li>
           <li><a href="top-games.html"><button>Top Games</button></a></li>
           <li><a href="news.html"><button>News</button></a></li>
           <li><a href="pre-order.html"><button>Pre-order</button></a></li>
           <li><a href="sell-buy.html"><button>Sell/buy</button></a></li>
-        </ul>
+      </ul>
       </nav>
       <ul class="top_nav">
         <li><a href="#"><button class="cta"><i class="far fa-heart"></i></button></a></li>
-        <li> <a href="#"><button class="cta"><i class="far fa-user"></i></button></a></li>
+        <li><a href="#"><button class="cta"><i class="far fa-user"></i></button></a></li>
         <li></li><a href="#"><button class="cta"><i class="fas fa-cart-plus"></i></button></a></li>
       </ul>
       <div>
@@ -39,7 +48,7 @@
       <section class="games">
       <section class="image-ads">
         <div>
-          <h1>Enjoy new deals every week!</h1>
+          <h1 class="games_h1">Enjoy new deals every week!</h1> 
         </div>
       </section>
         <ul>
@@ -61,7 +70,7 @@
             <li><a href="product.html"><h3 class="h3_top">Black</h3></a></li>
           </ul>
           <ul>
-            <li><a href="top-games.html">View more</a></li>
+            <li><a href="top-games.html" class="view_1">View more>></a></li>
           </ul>
         </div>
         <div class="products_2">
@@ -78,7 +87,7 @@
             <li><a href="product.html"><h3 class="h3_top">Assassin</h3></a></li>
           </ul>
           <ul>
-            <li><a href="news.html">View more</a></li>
+            <li><a href="news.html" class="view_2">View more>></a></li>
           </ul>
         </div>
         <div class="products_3">
@@ -95,7 +104,7 @@
             <li><a href="product.html"><h3>Forge Legend</h3></a></li>
           </ul>
           <ul>
-            <li><a href="news.html">View more</a></li>
+            <li><a href="news.html" class="view_3">View more>></a></li>
           </ul>
         </div>
         <div class="products_4">
@@ -112,15 +121,15 @@
             <li><a href="product.html"><h3>Racing</h3></a></li>
           </ul>
           <ul>
-            <li><a href="news.html">View more</a></li>
+            <li><a href="news.html" class="view_4">View more>></a></li>
           </ul>
         </div>
       </section>
       <section class="ads_bottom">
         <p class="ads_bottom-1">Sign up to our newsletter<p>
         <p class="ads_bottom-1">and get 10% off your first purchase!</p>
-          <p>Game outlet - used games and other sales</p>
-      </section>
+        <p class="ads_bottom-2">Game outlet - used games and other sales</p>
+    </section>
     </main>
     <footer>
       <a class="info_1" href="about.html">About us</a>

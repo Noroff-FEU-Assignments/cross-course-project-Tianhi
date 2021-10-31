@@ -65,17 +65,29 @@ nav, #hamburger-menu {
   display: block;
 }
 
-.hamburger-label {
-  float: left;
+.hamburger-label { 
   position: absolute
   top: 0;
   left: 0;
-  color: #1d2540;
-  padding: 20px;
-  font-size: 1.7em;
-  display: block;
-}
+  float: left; 
+  color: #1d2540; 
+  padding: 20px; 
+  font-size: 1.7em; 
+  display: block; 
+  margin-right: 10px;
+  } 
 
+  @media only screen and (min-width: 600px){
+    #menu-dropdown {
+      display: none;
+        flex-direction: row;
+    }
+}
+  @media only screen and (min-width: 600px) 
+    .menu_dropdown {
+      display: none;
+    }
+  
 
 footer {
   text-align: center;
@@ -87,11 +99,11 @@ footer {
 }
 
 .info_1 {
-  position: absolute;
+  margin-left: 100px;
 }
 
 .info_2 {
-  position: absolute;
+  margin-left: 100px;
 }
 
 /* Links */
@@ -190,6 +202,12 @@ main h1 {
   text-decoration: none;
 }
 
+.games_h1 {
+  background-color: #3f2873;
+  width: 235px;
+  background: rgb(63,40,115);
+background: linear-gradient(0deg, rgba(63,40,115,0.5760679271708684) 62%, rgba(63,40,115,0.4023984593837535) 100%);
+}
 
 .games {
   margin: auto;
@@ -197,6 +215,7 @@ main h1 {
   width: 100%;
   padding-right: 100px;
   padding-left: 100px;
+  
 }
 
 .product-list {
@@ -278,13 +297,39 @@ h3 {
   position: absolute;
   bottom: 10px;
   text-justify: space-evenly;
-  margin: 0px 10px 0px 10px;
+  margin: 0px 10px 0px -110px;
 }
 
 .h3_top {
   position: absolute;
   top: 180px;
 } 
+
+.view_1 {
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 20%;
+  font-style: italic;
+}
+
+.view_2 {
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 20%;
+  font-style: italic;
+}
+
+.view_3 {
+  position: absolute;
+  bottom: 10px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.view_4 {
+  font-style: italic;
+  margin-top: 130px;
+}
 
 .ads_bottom {
   margin-top: 100px;
@@ -294,9 +339,19 @@ h3 {
   color: #ffff;
 } 
 
-.info_1 {
-  display: inline-block;
+.item {
+background-color: #3f2873;
 } 
 
-.info_2 {
+.ads_bottom-1 {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  margin-right: 50px;
+  margin-bottom: 5px;
+} 
+
+.ads_bottom-2 {
+  display: inline-grid;
+  grid-template-columns: 1fr;
+  margin-left: 10px;
 } 
