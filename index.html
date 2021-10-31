@@ -7,11 +7,12 @@
     <title>Navbar</title>
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script> 
+    <script src="https://fontawesome.com/v5.15/icons/search?style=solid" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
-      <img class="logo" src="images/GameHub_Logo.png" alt="logo"> 
-      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+      <a href="index.html"><img  src="images/GameHub_Logo.png" alt="logo" class="logo" /></a> 
+       <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="hamburger-menu">
       <nav>
         <ul class="nav__links">
@@ -21,15 +22,16 @@
           <li><a href="pre-order.html"><button>Pre-order</button></a></li>
           <li><a href="sell-buy.html"><button>Sell/buy</button></a></li>
         </ul>
-      </nav class="top_nav">
-      <ul>
-      <li><a href="checkout.html"><button class="cta"><i class="far fa-heart"></i></button></a></li>
-      <li> <a href="profile.html"><button class="cta"><i class="far fa-user"></i></button></a></li>
-      <li></li><a href="favorite.html"><button class="cta"><i class="fas fa-cart-plus"></i></button></a></li>
+      </nav>
+      <ul class="top_nav">
+        <li><a href="#"><button class="cta"><i class="far fa-heart"></i></button></a></li>
+        <li> <a href="#"><button class="cta"><i class="far fa-user"></i></button></a></li>
+        <li></li><a href="#"><button class="cta"><i class="fas fa-cart-plus"></i></button></a></li>
       </ul>
       <div>
         <div class="search_bar">
           <input type="text" placeholder="Search">
+          <button class=""><i class="fas fa-search"></i></button>
         </div>
       </div>
     </header>
@@ -48,15 +50,15 @@
         <div class="products_1">
           <a href="top-games.html"><img src="images/GameHub_covers6.jpg" width="100" height="145" alt="Space War" class="proucts_img" /></a>
           <ul>
-            <li><a href="product.html"><h3>Space War</h3></a></li>
+            <li><a href="product.html"><h3 class="h3_top">Space War</h3></a></li>
           </ul>
           <a href="top-games.html"><img src="images/GameHub_covers10.jpg" width="100" height="145" alt="Forge Legend" class="proucts_img" /></a>
           <ul>
-            <li><a href="product.html"><h3>Forge Legend</h3></a></li>
+            <li><a href="product.html"><h3 class="h3_top">Forge Legend</h3></a></li>
           </ul>
           <a href="top-games.html"><img src="images/GameHub_covers3.jpg" width="100" height="145" alt="Black" class="proucts_img" /></a>
           <ul>
-            <li><a href="product.html"><h3>Black</h3></a></li>
+            <li><a href="product.html"><h3 class="h3_top">Black</h3></a></li>
           </ul>
           <ul>
             <li><a href="top-games.html">View more</a></li>
@@ -65,15 +67,15 @@
         <div class="products_2">
           <a href="top-games.html"><img src="images/GameHub_covers10.jpg" width="100" height="145" alt="Forge Legend" class="proucts_img" /></a>
           <ul>
-            <li><a href="product.html"><h3>Forge Legend</h3></a></li>
+            <li><a href="product.html"><h3 class="h3_top">Forge Legend</h3></a></li>
           </ul>
           <a href="top-games.html"><img src="images/GameHub_covers6.jpg" width="100" height="145" alt="Space War" class="proucts_img" /></a>
           <ul>
-            <li><a href="product.html"><h3>Space War</h3></a></li>
+            <li><a href="product.html"><h3 class="h3_top">Space War</h3></a></li>
           </ul>
           <a href="top-games.html"><img src="images/GameHub_covers5.jpg" width="100" height="145" alt="Assassin" class="proucts_img" /></a>
           <ul>
-            <li><a href="product.html"><h3>Assassin</h3></a></li>
+            <li><a href="product.html"><h3 class="h3_top">Assassin</h3></a></li>
           </ul>
           <ul>
             <li><a href="news.html">View more</a></li>
@@ -114,10 +116,15 @@
           </ul>
         </div>
       </section>
+      <section class="ads_bottom">
+        <p class="ads_bottom-1">Sign up to our newsletter<p>
+        <p class="ads_bottom-1">and get 10% off your first purchase!</p>
+          <p>Game outlet - used games and other sales</p>
+      </section>
     </main>
     <footer>
-      <a class="info" href="about.html">About us</a>
-      <a class="info" href="contact.html">Contact us</a>
+      <a class="info_1" href="about.html">About us</a>
+      <a class="info_2" href="contact.html">Contact us</a>
     </footer>
   </body>
 </html>
