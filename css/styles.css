@@ -75,18 +75,9 @@ nav, #hamburger-menu {
   font-size: 1.7em; 
   display: block; 
   margin-right: 10px;
+  display: none;
   } 
 
-  @media only screen and (min-width: 600px){
-    #menu-dropdown {
-      display: none;
-        flex-direction: row;
-    }
-}
-  @media only screen and (min-width: 600px) 
-    .menu_dropdown {
-      display: none;
-    }
   
 
 footer {
@@ -125,12 +116,24 @@ footer {
   color: #0505ff;
 }
 
+.input-container {
+  position: relative;
+}
+
 .search_bar {
-  border: 1px solid #3f2873;
+  border: 2px solid #3f2873;
   border-radius: 50px;
   position: absolute;
-  bottom: 1;
-  left: 500px;
+  left: -500px;
+  padding: 10px 20px 10px 150px;
+}
+
+.search-button {
+  background-color: #ffff;
+  color: #1d2540;
+  left: -225px;
+  top: 7px;
+  padding: 0px 0px 0px 0px;
 }
 
 button {
@@ -141,6 +144,7 @@ button {
   border-radius: 50px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
+  position: relative;
 }
 
 .cta {
@@ -231,7 +235,18 @@ background: linear-gradient(0deg, rgba(63,40,115,0.5760679271708684) 62%, rgba(6
   display: inline-flex;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
+    #menu-dropdown {
+      display: none;
+        flex-direction: row;
+    }
+}
+  @media only screen and (min-width: 600px) 
+    .nav__links {
+      display: none;
+    }
+  
+@media only screen and (min-width: 400px) {
   .product-list {
     flex-direction: column;
   }
@@ -252,6 +267,11 @@ background: linear-gradient(0deg, rgba(63,40,115,0.5760679271708684) 62%, rgba(6
       .product-list { 
       grid-template-columns: repeat(2, 2fr); 
       }
+
+.products-img {
+  width: 100px;
+  height: 145px;
+}
 
 .products_1 {
   grid-gap: 1.5em;
