@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Sell or buy computer games from GameHub" />
     <title>GameHub | Home</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script> 
     <script src="https://fontawesome.com/v5.15/icons/search?style=solid" crossorigin="anonymous"></script>
@@ -15,10 +16,18 @@
      <div class="input-container">
           <input class="search_bar" type="text" placeholder="Search">
           <button class="search-button"><i class="fas fa-search"></i></button>
-      </div>
-      <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
-      <input type="checkbox" id="hamburger-menu"> 
-     <label class="menu_dropdown" for="menu-dropdown"></label>  
+         <div class="dropdown-menu">
+           <label class="hamburger-label" for="hamburger-menu"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="hamburger-menu">
+            <div class="menu">
+              <a href="index.html">Home</a> 
+              <a href="top-games.html">Top Games</a> 
+              <a href="news.html">News</a>
+              <a href="pre-order.html">Pre-order</a>
+              <a href="sell-buy.html">Sell/Buy</a>   
+            </div>
+        </div> 
+      </div> 
             <section class="nav__links menu_dropdown">
               <li><a href="index.html"><button class="active">Home</button></a></li>
               <li><a href="top-games.html"><button>Top Games</button></a></li>
@@ -40,10 +49,9 @@
         <li><a href="#"><button class="cta"><i class="far fa-user"></i></button></a></li>
         <li><a href="#"><button class="cta"><i class="fas fa-cart-plus"></i></button></a></li>
       </ul>
-      
     </header>
     <main>
-      <section class="games">
+    <section class="games"><aside></aside>
       <section class="image-ads">
         <div>
           <h1 class="games_h1">Enjoy new deals every week!</h1> 
@@ -52,7 +60,7 @@
         <ul>
           <li></li>
         </ul>
-      </section>
+    </section>
       <section class="product-list">
         <div class="products_1">
           <a href="top-games.html"><img src="images/GameHub_covers6.jpg" alt="Space War" class="products_img" width="100" height="145" /></a>
@@ -124,8 +132,8 @@
         </div>
       </section>
       <section class="ads_bottom">
-        <p class="ads_bottom-1">Sign up to our newsletter<p>
-        <p class="ads_bottom-1">and get 10% off your first purchase!</p>
+        <p class="ads_bottom-1"><span>Sign up to our newsletter</span>and get 10% off your first purchase!<p>
+        <p class="ads_bottom-1"></p>
         <p class="ads_bottom-2">Game outlet - used games and other sales</p>
     </section>
     </main>
