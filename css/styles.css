@@ -389,4 +389,7 @@ h3 {
   #hamburger-menu:checked + .menu {
     display: block;
   }
+  .nav__links {
+    display: none;
+  }
 }
