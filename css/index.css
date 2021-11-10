@@ -1,1 +1,95 @@
 /* Homepage */
+
+.image-ads {
+  background-image: url(../images/homepage-img_1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: center;
+  width: 100%;
+}
+.games_h1 {
+  background-color: #3f2873;
+  width: 240px;
+  margin-left: 40px;
+  background: rgb(63, 40, 115);
+  background: linear-gradient(
+    0deg,
+    rgba(63, 40, 115, 0.5760679271708684) 62%,
+    rgba(63, 40, 115, 0.4023984593837535) 100%
+  );
+}
+
+.games {
+  margin: auto;
+  background-image: url(../images/homepage-img_3.jpg);
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
+
+.product-list {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin-top: 100px;
+  margin-left: 18%;
+}
+
+.product-list a {
+  font-size: 10px;
+  display: inline-flex;
+}
+
+.products-img {
+  width: 100px;
+  height: 145px;
+}
+
+.products_1 {
+  grid-gap: 1.5em;
+  display: inline-flex;
+  padding: 20px;
+  margin: 10px 10px;
+  border: 1px solid #ffff;
+  font-size: 15px;
+  color: #ffff;
+}
+
+.products_2 {
+  grid-gap: 1.5em;
+  display: inline-flex;
+  padding: 20px;
+  margin: 10px 10px 10px;
+  border: 1px solid #ffff;
+  font-size: 15px;
+  color: #ffff;
+}
+
+.products_3 {
+  grid-gap: 1.5em;
+  display: inline-flex;
+  padding: 20px;
+  margin: 10px 10px;
+  border: 1px solid #ffff;
+  font-size: 15px;
+  color: #ffff;
+}
+
+.products_4 {
+  grid-gap: 1.5em;
+  display: inline-flex;
+  padding: 20px;
+  margin: 10px 10px;
+  border: 1px solid #ffff;
+  font-size: 15px;
+  color: #ffff;
+}
+
+.product-list h2 {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400px;
+  font-size: 16px;
+  color: #ffff;
+  top: 1px;
+}
