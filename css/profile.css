@@ -1,3 +1,7 @@
+.other-pages {
+  min-height: 1000px;
+}
+
 h1 {
   position: absolute;
   right: -660px;
@@ -58,7 +62,7 @@ p {
   color: #ffff;
   position: absolute;
   right: 8px;
-  bottom: 115px;
+  bottom: 150px;
 }
 
 .other-info,
@@ -93,4 +97,14 @@ p {
   left: 180px;
   width: 280px;
   height: 190px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.button_buy-sell {
+  position: absolute;
+  left: 940px;
+  bottom: 30px;
 }

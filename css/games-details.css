@@ -1,0 +1,18 @@
+h1 {
+  font-size: 30px;
+  color: #1d2540;
+  position: absolute;
+  right: -650px;
+  bottom: 50px;
+}
+
+h3 {
+  font-size: 30px;
+  color: #1d2540;
+  position: absolute;
+  left: 1000px;
+}
+
+.description-wrapper {
+  background-color: #ffff;
+}

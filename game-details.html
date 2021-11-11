@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Sell or buy computer games from GameHub" />
-    <title>GameHub | Create Account</title>
+    <title>GameHub | Game details</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/create-account.css" rel="stylesheet" />
+    <link href="css/games-details.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script> 
     <script src="https://fontawesome.com/v5.15/icons/search?style=solid" crossorigin="anonymous"></script>
@@ -47,21 +47,27 @@
   </ul>
 </nav>
     </header>
-    <main class="create-account">
-        <h1 class="title">Create account</h1>
-        <form action="profile.html" method="POST">
-            <div class="form-wrapper">
-                <label for="name">Name</label>
-                <input class="register" type="text" id="name" name=Name required />
-                <label for="email">Email</label>
-                <input class="register" type="email" id="email" name=Email required />
-                <label for="password">Password</label>
-                <input class="register" type="password" id="password" name=Password required />
-                <label for="repeate-password">Repeate password</label>
-               <input class="register" type="password" id="password" name=Password required />
-               <input type="submit" value="Continue" class="continue" />
-            </div>
-        </form>
+    <main class="details-page">
+      <h1 class="title">Space War</h1>
+      <section>
+        <img src="images/GameHub_covers6.jpg" alt="Space War" class="products_img" width="200" height="290" /></a>
+        <div>
+          <p>$20</p>
+          <a href="checkout.html"><button>Buy new</button></a>
+          <p>$15</p>
+          <a href="checkout.html"><button>Buy used</button></a>
+            <a href="favorite.html"><p>Add to favorites<i class="far fa-heart"></i></p></a>
+        </div>
+        <div class="description-wrapper">
+          <h3>Description</h3>
+          <p>Do you like space?</p>
+          <p>Then Space war is the game for you.</p>
+          <p>team up with a friend and drive your</p>
+          <p>own spaceship in the fight against the</p>
+          <p>enemies that threatens the peace of</p>
+          <p>the universe.</p>
+        </div>
+      </section>
     </main>
     <footer class="bottom-other-pages">
       <a href="about.html">About us</a>

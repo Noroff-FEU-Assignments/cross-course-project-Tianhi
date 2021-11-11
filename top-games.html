@@ -7,6 +7,7 @@
     <title>GameHub | Top Games</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/top-games.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script> 
     <script src="https://fontawesome.com/v5.15/icons/search?style=solid" crossorigin="anonymous"></script>
@@ -31,11 +32,13 @@
       </div> 
       <nav> 
         <section class="nav__links">
+          <ul>
           <li><a href="index.html"><button>Home</button></a></li>
           <li><a href="top-games.html"><button class="active">Top Games</button></a></li>
           <li><a href="news.html"><button>News</button></a></li>
           <li><a href="pre-order.html"><button>Pre-order</button></a></li>
           <li><a href="sell-buy.html"><button>Sell/buy</button></a></li>
+        </ul> 
         </section>
   <ul class="top_nav">
     <li><a href="favorite.html"><button class="cta"><i class="far fa-heart"></i></button></a></li>
@@ -44,7 +47,26 @@
   </ul>
 </nav>
     </header>
-    <main>
+    <main class="game-page">
+      <section class="games-wrapper">
+      <h1 class="title">Top Games</h1>
+      <a href="game-details.html"><h3>Forge Legend</h3></a>
+      <div class="game1-wrapper">
+        <a href="game-details.html"><img src="images/GameHub_covers10.jpg" alt="Forge Legend" class="products_img" width="120" height="165" /></a>
+      </div>
+      <a href="game-details.html"><h3>Black</h3></a>
+      <div class="game2-wrapper">
+        <a href="game-details.html"><img src="images/GameHub_covers3.jpg" alt="Black" class="products_img" width="120" height="165" /></a>
+      </div>
+      <a href="game-details.html"><h3>Space War</h3></a>
+      <div class="game3-wrapper">
+        <a href="game-details.html"><img src="images/GameHub_covers6.jpg" alt="Space War" class="products_img" width="120" height="165" /></a>
+      </div>
+      <a href="game-details.html"><h3>Cyberpunk</h3></a>
+      <div class="game4-wrapper">
+        <a href="game-details.html"><img src="images/GameHub_covers9.jpg" alt="Cyberpunk" class="products_img" width="120" height="165" /></a>
+      </div>
+    </section>
     </main>
     <footer class="bottom-other-pages">
       <a href="about.html">About us</a>

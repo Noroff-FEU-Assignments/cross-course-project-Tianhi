@@ -1,0 +1,33 @@
+h1 {
+  position: absolute;
+  right: -400px;
+  bottom: 50px;
+}
+
+h3 {
+  color: #1d2540;
+}
+
+.games-wrapper {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 18%;
+}
+
+.game1-wrapper {
+  border: 1px solid #ffff;
+}
+
+.game2-wrapper {
+  border: 1px solid #ffff;
+}
+
+.game3-wrapper {
+  border: 1px solid #ffff;
+}
+
+.game4-wrapper {
+  border: 1px solid #ffff;
+}

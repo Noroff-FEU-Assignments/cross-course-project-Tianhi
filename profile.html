@@ -32,11 +32,13 @@
       </div> 
       <nav> 
         <section class="nav__links">
+        <ul>
           <li><a href="index.html"><button>Home</button></a></li>
           <li><a href="top-games.html"><button>Top Games</button></a></li>
           <li><a href="news.html"><button>News</button></a></li>
           <li><a href="pre-order.html"><button>Pre-order</button></a></li>
           <li><a href="sell-buy.html"><button>Sell/buy</button></a></li>
+        </ul>
         </section>
   <ul class="top_nav">
     <li><a href="favorite.html"><button class="cta"><i class="far fa-heart"></i></button></a></li>
@@ -71,13 +73,13 @@
               </div>
               <div class="about-you">
                 <h2>About you</h2>
-                <form method="POST"></form>
+                <form method="POST">
                  <label for="name">First name</label>
-                 <input class="name-edit" type="text" id="name" name=Name />
+                 <input class="first-name" type="text" id="name" name=Name />
                  <label for="name">Surename</label>
-                 <input class="emil-edit" type="name" id="name" name=Name />
+                 <input class="surename" type="name" id="name" name=Name />
                  <label for="password">Born</label>
-                 <input class="password-edit" type="password" id="password" name=Password />
+                 <input class="born" type="password" id="password" name=Password />
                  <p>Gender</p>
                  <label for="female">Female</label>
                  <input type="radio" id="female" name="gender" value="female">
@@ -89,7 +91,10 @@
                 </form>
               </div>
             </section> 
-          </div>
+            <section class="button_buy-sell">
+              <a href="top-games.html"><button>Buy</button></a>
+              <a href="top-games.html"><button>Sell</button></a>
+            </section>
       </section>
     </main>
     <footer class="bottom-other-pages">
