@@ -12,6 +12,8 @@
 }
 
 body {
+  min-height: 100vh;
+  min-width: 100vw;
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-repeat: no-repeat;
@@ -78,6 +80,7 @@ button {
 
 header {
   min-height: 150px;
+  min-width: 100vw;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -122,6 +125,11 @@ footer {
 
 .info_2 {
   margin-left: 100px;
+}
+
+img {
+  width: ;
+  height: ;
 }
 
 /* Links */
@@ -231,73 +239,4 @@ h3 {
 .h3_top {
   position: absolute;
   top: 180px;
-}
-
-.view_1 {
-  position: absolute;
-  bottom: 10px;
-  margin-bottom: 20%;
-  font-style: italic;
-}
-
-.view_2 {
-  position: absolute;
-  bottom: 10px;
-  margin-bottom: 20%;
-  font-style: italic;
-}
-
-.view_3 {
-  position: absolute;
-  bottom: 10px;
-  margin-bottom: 10px;
-  font-style: italic;
-}
-
-.view_4 {
-  font-style: italic;
-  margin-top: 130px;
-}
-
-.ads_bottom {
-  margin-top: 100px;
-  margin-left: 50%;
-  font-family: "Open Sans", Roboto, Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: lighter;
-  color: #ffff;
-}
-
-.item {
-  background-color: #3f2873;
-}
-
-.ads_bottom-1 {
-  display: inline-grid;
-  grid-template-columns: 1fr;
-  position: absolute;
-  left: 350px;
-  margin-right: 50px;
-  margin-bottom: 10px;
-  border-radius: 10px;
-  background: rgb(74, 53, 121);
-  background: radial-gradient(
-    circle,
-    rgba(74, 53, 121, 1) 0%,
-    rgba(26, 11, 61, 1) 100%
-  );
-  padding: 10px 10px 10px 10px;
-}
-
-.ads_bottom-2 {
-  display: inline-grid;
-  grid-template-columns: 1fr;
-  margin-left: 10px;
-  border-radius: 10px;
-  background: rgb(74, 53, 121);
-  background: radial-gradient(
-    circle,
-    rgba(74, 53, 121, 1) 0%,
-    rgba(26, 11, 61, 1) 100%
-  );
-  padding: 10px 10px 10px 10px;
 }

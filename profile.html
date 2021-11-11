@@ -7,6 +7,7 @@
     <title>GameHub | Profile</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/profile.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script> 
     <script src="https://fontawesome.com/v5.15/icons/search?style=solid" crossorigin="anonymous"></script>
@@ -31,7 +32,7 @@
       </div> 
       <nav> 
         <section class="nav__links">
-          <li><a href="index.html"><button class="active">Home</button></a></li>
+          <li><a href="index.html"><button>Home</button></a></li>
           <li><a href="top-games.html"><button>Top Games</button></a></li>
           <li><a href="news.html"><button>News</button></a></li>
           <li><a href="pre-order.html"><button>Pre-order</button></a></li>
@@ -44,9 +45,35 @@
   </ul>
 </nav>
     </header>
-    <main>
+    <main class="profile-page">
+      <h1 class="title">My account</h1>
+      <section class="profile-container">
+        <section class="profile-img">
+          <i class="far fa-user"></i>
+           <form method="POST">
+           <div class="profil-wrapper">
+              <label for="name">Name</label>
+              <input class="name-edit" type="text" id="name" name=Name />
+              <label for="email">Email</label>
+              <input class="emil-edit" type="email" id="email" name=Email />
+              <label for="password">Password</label>
+              <input class="password-edit" type="password" id="password" name=Password />
+              <input type="submit" value="Edit" class="edit" />
+              </div>
+             </form> 
+            </section>
+            <section class="profile-container_2">
+              <div class="other-info">
+
+              </div>
+              <div class="about-you">
+                
+              </div>
+            </section> 
+          </div>
+      </section>
     </main>
-    <footer>
+    <footer class="bottom-other-pages">
       <a href="about.html">About us</a>
       <a href="contact.html">Contact us</a>
     </footer>

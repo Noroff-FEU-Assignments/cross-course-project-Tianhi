@@ -3,7 +3,7 @@
     display: block;
     cursor: pointer;
     position: absolute;
-    left: -490px;
+    left: -560px;
     top: 55px;
   }
   .menu {
@@ -11,7 +11,7 @@
     width: 100%;
     display: none;
     position: absolute;
-    left: -509px;
+    left: -575px;
     top: 102px;
     background-color: #1d2540;
     margin: 10px 0px;

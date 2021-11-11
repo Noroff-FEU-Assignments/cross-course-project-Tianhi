@@ -2,7 +2,7 @@ h1 {
   font-size: 30px;
   color: #1d2540;
   position: absolute;
-  right: 160px;
+  right: 220px;
   bottom: 150px;
 }
 
@@ -36,4 +36,5 @@ h1 {
   font-weight: 400px;
   font-size: 16px;
   color: #ffff;
+  width: 500px;
 }

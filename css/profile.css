@@ -1,0 +1,38 @@
+h1 {
+  position: absolute;
+  right: -660px;
+  bottom: 50px;
+}
+
+.profile-container {
+  border: 1px solid #3f2873;
+  border-radius: 5px;
+  background-color: #ffff;
+  height: 150px;
+  width: 550px;
+  margin: 0px 585px;
+  padding: 90px;
+}
+
+.profile-img {
+  border: 1px solid #3f2873;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  left: 600px;
+  top: 350px;
+}
+
+.profile-img i {
+  font-size: 50px;
+  font-weight: normal;
+  color: #3f2873;
+  padding: 38px;
+}
+
+.edit {
+  background-color: #3f2873;
+  font-weight: lighter;
+  color: #ffff;
+}
