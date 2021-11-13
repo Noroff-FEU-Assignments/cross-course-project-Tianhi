@@ -1,30 +1,52 @@
+.other-pages {
+  min-height: 1000px;
+}
+
 h1 {
   font-size: 30px;
   color: #1d2540;
   position: absolute;
-  right: -650px;
+  right: -700px;
   bottom: 50px;
-}
-
-h3 {
-  font-size: 30px;
-  color: #1d2540;
-  position: absolute;
-  left: 1000px;
 }
 
 .img-details {
   position: absolute;
+  left: 450px;
+  margin-top: -80px;
+}
+
+.details-page button {
+  position: relative;
   left: 400px;
+  bottom: 350px;
   margin-top: -50px;
+  margin-bottom: 20px;
+  display: inline-flex;
+}
+
+.game-price p {
+  position: relative;
+  left: 440px;
+  bottom: 360px;
 }
 
 .description-wrapper {
   background-color: #ffff;
+  border: 1px solid #1d2540;
   max-width: 600px;
   position: relative;
   left: 350px;
   bottom: 230px;
   margin-top: -50px;
   padding: 10px 10px 10px 10px;
+}
+
+.description-wrapper h4 {
+}
+
+.add-to-f {
+  color: #1d2540;
+  position: relative;
+  bottom: -60px;
 }

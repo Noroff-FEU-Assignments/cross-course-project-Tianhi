@@ -29,6 +29,12 @@ body {
 }
 
 .other-pages {
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-repeat: no-repeat;
   background: rgb(179, 179, 179);
   background: linear-gradient(
     180deg,
@@ -36,13 +42,6 @@ body {
     rgba(135, 135, 135, 1) 72%,
     rgba(112, 112, 112, 1) 100%
   );
-  margin: 0;
-  min-height: 100vh;
-  min-width: 100vw;
-}
-
-.bottom-other-pages {
-  background-color: #7c7c7c;
 }
 
 .dropdown-menu {
@@ -117,6 +116,15 @@ header {
 footer {
   text-align: center;
   background-color: #1d2540;
+  padding: 50px 10px 100px 10px;
+  display: inline-block;
+  grid-template-columns: 1fr;
+  position: center;
+}
+
+.bottom-other-pages {
+  background-color: #7c7c7c;
+  text-align: center;
   padding: 50px 10px 100px 10px;
   display: inline-block;
   grid-template-columns: 1fr;

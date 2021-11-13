@@ -1,0 +1,13 @@
+h1 {
+  position: absolute;
+  right: -700px;
+  bottom: 50px;
+}
+
+.steps {
+  position: absolute;
+  right: 810px;
+  top: 290px;
+  font-size: 34px;
+  color: #3f2873;
+}
