@@ -13,6 +13,18 @@ h3 {
   left: 1000px;
 }
 
+.img-details {
+  position: absolute;
+  left: 400px;
+  margin-top: -50px;
+}
+
 .description-wrapper {
   background-color: #ffff;
+  max-width: 600px;
+  position: relative;
+  left: 350px;
+  bottom: 230px;
+  margin-top: -50px;
+  padding: 10px 10px 10px 10px;
 }

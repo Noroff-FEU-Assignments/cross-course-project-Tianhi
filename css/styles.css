@@ -12,6 +12,7 @@
 }
 
 body {
+  margin: 0;
   min-height: 100vh;
   min-width: 100vw;
   display: grid;
@@ -35,6 +36,9 @@ body {
     rgba(135, 135, 135, 1) 72%,
     rgba(112, 112, 112, 1) 100%
   );
+  margin: 0;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .bottom-other-pages {

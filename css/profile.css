@@ -80,6 +80,10 @@ p {
   bottom: 200px;
 }
 
+.profile-container_2 p {
+  margin: 20px 0 0 35px;
+}
+
 .other-info {
   position: absolute;
   right: -110px;
@@ -107,4 +111,13 @@ h2 {
   position: absolute;
   left: 940px;
   bottom: 30px;
+}
+
+.gender {
+  position: absolute;
+  bottom: 10px;
+}
+
+.gender label {
+  color: #3f2873;
 }

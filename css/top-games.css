@@ -1,33 +1,38 @@
 h1 {
   position: absolute;
-  right: -400px;
+  right: -600px;
   bottom: 50px;
 }
 
 h3 {
   color: #1d2540;
-}
-
-.games-wrapper {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr;
   position: relative;
-  margin-top: 30px;
-  margin-left: 18%;
 }
 
-.game1-wrapper {
-  border: 1px solid #ffff;
+.games-wrapper_1,
+.games-wrapper_2 {
+  max-width: 600px;
+  margin: auto;
+  display: flex;
 }
 
-.game2-wrapper {
-  border: 1px solid #ffff;
+.game-wrapper-img {
+  margin: 20px;
+  float: left;
+  width: 390px;
+  background-color: #ffff;
+  border: 1px solid #1d2540;
+  display: inline-flex;
 }
 
-.game3-wrapper {
-  border: 1px solid #ffff;
+.game_description {
+  text-align: center;
 }
 
-.game4-wrapper {
-  border: 1px solid #ffff;
+main i {
+  color: #1d2540;
+}
+
+.game_description a {
+  color: #0505ff;
 }
