@@ -1,3 +1,7 @@
+* {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
   position: absolute;
   right: -700px;
@@ -6,8 +10,50 @@ h1 {
 
 .steps {
   position: absolute;
-  right: 810px;
+  right: 840px;
   top: 290px;
   font-size: 34px;
   color: #3f2873;
+}
+
+fieldset {
+  background-color: #ffff;
+  margin: auto;
+  padding: 20px;
+  width: 400px;
+  opacity: 0.9;
+  position: center;
+  margin-left: 500px;
+}
+
+.game-wrapper-img {
+  margin: 20px;
+  float: right;
+  position: relative;
+  left: -450px;
+  bottom: 225px;
+  width: 390px;
+  background-color: #ffff;
+  border: 1px solid #1d2540;
+  display: inline-flex;
+}
+
+.game_description {
+  margin: 15px;
+}
+
+.price {
+  display: inline-flex;
+  position: absolute;
+  left: 310px;
+  bottom: 10px;
+}
+
+.pay-button {
+  background-color: #3f2873;
+  border-radius: 10px;
+  width: 150px;
+  position: absolute;
+  left: 850px;
+  bottom: 90px;
 }

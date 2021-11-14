@@ -108,21 +108,24 @@
 
 .view_1 {
   position: absolute;
-  bottom: 10px;
+  bottom: -40px;
+  left: 590px;
   margin-bottom: 20%;
   font-style: italic;
 }
 
 .view_2 {
   position: absolute;
-  bottom: 10px;
+  bottom: -40px;
+  right: 30px;
   margin-bottom: 20%;
   font-style: italic;
 }
 
 .view_3 {
   position: absolute;
-  bottom: 10px;
+  bottom: 15px;
+  left: 590px;
   margin-bottom: 10px;
   font-style: italic;
 }
