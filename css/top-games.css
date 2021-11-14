@@ -1,38 +1,57 @@
+* {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
 h1 {
   position: absolute;
-  right: -600px;
+  right: -700px;
   bottom: 50px;
 }
 
 h3 {
   color: #1d2540;
   position: relative;
+  left: 230px;
+  bottom: 30px;
 }
 
 .games-wrapper_1,
 .games-wrapper_2 {
   max-width: 600px;
-  margin: auto;
+  margin: 100px;
   display: flex;
+  position: relative;
+  left: 400px;
+  bottom: 100px;
 }
 
 .game-wrapper-img {
-  margin: 20px;
-  float: left;
-  width: 390px;
   background-color: #ffff;
   border: 1px solid #1d2540;
+  width: 400px;
+  margin: 20px;
+  float: left;
   display: inline-flex;
 }
 
 .game_description {
   text-align: center;
-}
-
-main i {
-  color: #1d2540;
+  width: 500px;
 }
 
 .game_description a {
   color: #0505ff;
+  position: relative;
+  bottom: -100px;
+  left: 50px;
+}
+main i {
+  color: #1d2540;
+  position: relative;
+  bottom: 100px;
+  left: 35px;
+}
+
+main p {
+  font-size: 17px;
 }

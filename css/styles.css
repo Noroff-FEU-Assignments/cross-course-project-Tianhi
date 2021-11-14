@@ -14,7 +14,7 @@
 body {
   margin: 0;
   min-height: 100vh;
-  min-width: 100vw;
+  width: 100vw;
   display: grid;
   grid-template-rows: auto 1fr auto;
   background-repeat: no-repeat;
@@ -125,10 +125,13 @@ footer {
 .bottom-other-pages {
   background-color: #7c7c7c;
   text-align: center;
-  padding: 50px 10px 100px 10px;
   display: inline-block;
   grid-template-columns: 1fr;
   position: center;
+}
+
+.bottom-other-pages a {
+  margin-left: 100px;
 }
 
 .info_1 {

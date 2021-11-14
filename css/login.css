@@ -10,6 +10,14 @@ h1 {
   bottom: 150px;
 }
 
+h3 {
+  font-size: 17px;
+  color: #1d2540;
+  position: absolute;
+  right: 870px;
+  bottom: 550px;
+}
+
 .register {
   border: 1px solid #3f2873;
   border-radius: 5px;
@@ -33,7 +41,7 @@ h1 {
   color: #1d2540;
 }
 
-.continue {
+.login {
   padding: 15px;
   border-radius: 5px;
   background-color: #3f2873;
@@ -41,4 +49,24 @@ h1 {
   font-size: 20px;
   color: #ffff;
   width: 500px;
+}
+
+.forgot-p {
+  color: #0505ff;
+  position: relative;
+  left: 320px;
+}
+
+.or {
+  position: relative;
+  top: -20px;
+  left: -40px;
+}
+
+.create-acc {
+  border: solid #707070;
+  border-radius: 5px;
+  width: 505px;
+  position: relative;
+  left: 200px;
 }

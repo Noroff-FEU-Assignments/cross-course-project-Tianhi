@@ -7,6 +7,7 @@
     <title>GameHub | Login</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet">
     <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/login.css" rel="stylesheet" />
     <link href="css/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b318972c4d.js" crossorigin="anonymous"></script> 
     <script src="https://fontawesome.com/v5.15/icons/search?style=solid" crossorigin="anonymous"></script>
@@ -46,8 +47,24 @@
   </ul>
 </nav>
     </header>
-    <main>  
-    </main>
+    <main class="create-account">
+      <h1 class="title">Login</h1>
+      <h3>Welcome back!</h3>
+      <form  method="POST" action="profile.html">
+          <div class="form-wrapper">
+              <label for="email">Email</label>
+              <input class="register" type="email" id="email" name=Email required />
+              <label for="password">Password</label>
+              <input class="register" type="password" id="password" name=Password required />
+              <a href="login.html"><p class="forgot-p">Forgot your password?</p></a>
+             <input type="submit" value="Login" class="login" />
+          </div>
+        </form>
+          <p class="or">Or</p>
+          <div class="create-acc">
+            <a href="create-account.html"><button class="login">Create an account</button></a>
+          </div>
+  </main>
     <footer class="bottom-other-pages">
       <a href="about.html">About us</a>
       <a href="contact.html">Contact us</a>

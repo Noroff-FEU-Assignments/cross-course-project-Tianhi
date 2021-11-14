@@ -1,5 +1,6 @@
 .other-pages {
   min-height: 1000px;
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1 {
@@ -37,7 +38,7 @@ h1 {
   max-width: 600px;
   position: relative;
   left: 350px;
-  bottom: 230px;
+  bottom: 270px;
   margin-top: -50px;
   padding: 10px 10px 10px 10px;
 }
@@ -48,5 +49,5 @@ h1 {
 .add-to-f {
   color: #1d2540;
   position: relative;
-  bottom: -60px;
+  bottom: -20px;
 }
