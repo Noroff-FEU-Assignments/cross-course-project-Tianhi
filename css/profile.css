@@ -1,0 +1,123 @@
+.other-pages {
+  min-height: 1100px;
+}
+
+h1 {
+  position: absolute;
+  right: -660px;
+  bottom: 50px;
+}
+
+.profile-page label,
+input,
+p {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.profile-container {
+  border: 1px solid #3f2873;
+  border-radius: 5px;
+  background-color: #ffff;
+  height: 150px;
+  width: 550px;
+  margin: -100px 585px;
+  padding: 90px;
+}
+
+.profile-img {
+  border: 1px solid #3f2873;
+  border-radius: 100px;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  left: 620px;
+  top: 375px;
+}
+
+.profile-img i {
+  font-size: 50px;
+  font-weight: normal;
+  color: #3f2873;
+  padding: 40px;
+}
+
+.profile-wrapper {
+  position: absolute;
+  left: 300px;
+  bottom: -10px;
+}
+
+.edit {
+  background-color: #3f2873;
+  font-weight: lighter;
+  color: #ffff;
+  position: absolute;
+  right: -35px;
+  bottom: 110px;
+}
+
+.edit_2 {
+  background-color: #3f2873;
+  font-weight: lighter;
+  color: #ffff;
+  position: absolute;
+  right: 8px;
+  bottom: 150px;
+}
+
+.other-info,
+.about-you {
+  border: 1px solid #3f2873;
+  border-radius: 5px;
+  background-color: #ffff;
+}
+
+.profile-container_2 {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: center;
+  position: absolute;
+  bottom: 200px;
+}
+
+.profile-container_2 p {
+  margin: 20px 0 0 35px;
+}
+
+.other-info {
+  position: absolute;
+  right: -110px;
+  width: 200px;
+  height: 190px;
+}
+
+.other-info a {
+  color: #0505ff;
+  position: center;
+}
+
+.about-you {
+  position: absolute;
+  left: 180px;
+  width: 280px;
+  height: 190px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.button_buy-sell {
+  position: absolute;
+  left: 940px;
+  bottom: 30px;
+}
+
+.gender {
+  position: absolute;
+  bottom: 10px;
+}
+
+.gender label {
+  color: #3f2873;
+}

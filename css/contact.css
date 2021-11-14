@@ -1,0 +1,69 @@
+* {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.other-pages {
+  min-height: 1000px;
+}
+
+h1 {
+  font-size: 30px;
+  color: #1d2540;
+  position: absolute;
+  right: -700px;
+  bottom: 50px;
+}
+
+.help-info {
+  position: relative;
+  right: -660px;
+  top: -70px;
+  background-color: #ffff;
+  border: 1px solid #1d2540;
+  opacity: 0.9;
+  padding: 10px;
+  width: 400px;
+}
+
+h4 {
+  color: #3f2873;
+  margin-bottom: 13px;
+}
+
+.line {
+  border-bottom: #1d2540;
+}
+
+.contact-info {
+  background-color: #ffff;
+  border: 1px solid #1d2540;
+  width: 500px;
+  height: 300px;
+  position: relative;
+  left: 610px;
+  bottom: 10px;
+  text-align: center;
+}
+
+.contact-info h4 {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.contact-info a {
+  color: #0505ff;
+}
+
+.contact-symbols i {
+  color: #ffff;
+  background-color: #3f2873;
+  font-size: 40px;
+  border-radius: 40px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  position: relative;
+  top: -290px;
+  left: 530px;
+  margin-bottom: 40px;
+}

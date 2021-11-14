@@ -1,0 +1,44 @@
+* {
+  font-family: "Open Sans", Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  color: #1d2540;
+  position: absolute;
+  right: 240px;
+  bottom: 150px;
+}
+
+.register {
+  border: 1px solid #3f2873;
+  border-radius: 5px;
+  margin: 10px 10px 10px 0px;
+  padding: 10px;
+  width: 500px;
+}
+
+.create-account {
+  max-width: 1000px;
+  margin: 97px auto;
+  text-align: center;
+}
+
+.form-wrapper {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  margin: -130px 200px 50px;
+  color: #1d2540;
+}
+
+.continue {
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #3f2873;
+  font-weight: 400px;
+  font-size: 20px;
+  color: #ffff;
+  width: 500px;
+}
