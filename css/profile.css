@@ -1,5 +1,5 @@
 .other-pages {
-  min-height: 1000px;
+  min-height: 1100px;
 }
 
 h1 {
@@ -31,7 +31,7 @@ p {
   height: 130px;
   position: absolute;
   left: 620px;
-  top: 365px;
+  top: 375px;
 }
 
 .profile-img i {
@@ -44,7 +44,7 @@ p {
 .profile-wrapper {
   position: absolute;
   left: 300px;
-  bottom: 10px;
+  bottom: -10px;
 }
 
 .edit {

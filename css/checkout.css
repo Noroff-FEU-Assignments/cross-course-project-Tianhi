@@ -3,15 +3,15 @@
 }
 
 h1 {
-  position: absolute;
+  position: relative;
   right: -700px;
   bottom: 50px;
 }
 
 .steps {
-  position: absolute;
-  right: 840px;
-  top: 290px;
+  position: relative;
+  right: -800px;
+  top: -150px;
   font-size: 34px;
   color: #3f2873;
 }
@@ -23,15 +23,15 @@ fieldset {
   width: 400px;
   opacity: 0.9;
   position: center;
-  margin-left: 500px;
+  margin-left: 450px;
 }
 
 .game-wrapper-img {
   margin: 20px;
   float: right;
   position: relative;
-  left: -450px;
-  bottom: 225px;
+  left: -600px;
+  bottom: 230px;
   width: 390px;
   background-color: #ffff;
   border: 1px solid #1d2540;
@@ -44,8 +44,8 @@ fieldset {
 
 .price {
   display: inline-flex;
-  position: absolute;
-  left: 310px;
+  position: relative;
+  left: 10px;
   bottom: 10px;
 }
 
@@ -53,7 +53,7 @@ fieldset {
   background-color: #3f2873;
   border-radius: 10px;
   width: 150px;
-  position: absolute;
-  left: 850px;
-  bottom: 90px;
+  position: relative;
+  left: 790px;
+  bottom: -40px;
 }

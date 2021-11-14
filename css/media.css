@@ -3,7 +3,7 @@
     display: block;
     cursor: pointer;
     position: absolute;
-    left: -560px;
+    left: -460px;
     top: 55px;
   }
   .menu {
@@ -11,7 +11,7 @@
     width: 100%;
     display: none;
     position: absolute;
-    left: -575px;
+    left: -500px;
     top: 102px;
     background-color: #1d2540;
     margin: 10px 0px;
@@ -21,6 +21,8 @@
   .menu a {
     display: block;
     border-bottom: 1px #ffff;
+    position: relative;
+    right: 30px;
   }
   #hamburger-menu:checked + .menu {
     display: block;
@@ -28,12 +30,15 @@
   .nav__links {
     display: none;
   }
+  .top_nav {
+    position: relative;
+  }
   .logo {
     width: 180px;
     height: 120px !important;
     position: absolute;
     top: 10px;
-    left: 110px;
+    left: 240px;
     padding: 0;
     display: flex;
   }
@@ -48,17 +53,17 @@
     grid-template-rows: auto 1fr auto;
   }
   header {
-    min-height: 175px;
+    height: 175px;
   }
   .search_bar {
     position: absolute;
-    left: -435px;
+    left: -300px;
     top: 70px;
     padding: 10px 20px 10px 100px;
   }
 
   .search-button {
-    left: -200px;
+    left: -60px;
     top: 78px;
     padding: 0px 0px 0px 0px;
   }
@@ -71,9 +76,105 @@
     flex-direction: column;
     left: -10px;
   }
+  .ads_bottom-1 {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+    position: absolute;
+    left: 30px;
+  }
+  .view_1 {
+    position: absolute;
+    bottom: 550px;
+    left: 45px;
+  }
+
+  .view_2 {
+    position: absolute;
+    bottom: 340px;
+    left: 45px;
+  }
+
+  .view_3 {
+    position: absolute;
+    bottom: 240px;
+    left: 45px;
+  }
+
+  .view_4 {
+    position: relative;
+    left: -540px;
+  }
+  h3 {
+    display: none;
+  }
 }
 
-@media (min-width: 500px) {
+@media only screen and (max-width: 1000px) {
+  .hamburger-label {
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    left: -700px;
+    top: 55px;
+  }
+  .menu {
+    text-align: center;
+    width: 100%;
+    display: none;
+    position: absolute;
+    left: -780px;
+    top: 102px;
+    background-color: #1d2540;
+    margin: 10px 0px;
+    padding: 15px 80px;
+    border: 1px solid #ffff;
+  }
+  .menu a {
+    display: block;
+    border-bottom: 1px #ffff;
+    position: relative;
+    right: 30px;
+  }
+  #hamburger-menu:checked + .menu {
+    display: block;
+  }
+  .nav__links {
+    display: none;
+  }
+  .top_nav {
+    position: relative;
+  }
+  .logo {
+    width: 180px;
+    height: 120px !important;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    padding: 0;
+    display: flex;
+  }
   .product-list {
+    display: flex;
+    flex-direction: column;
+    left: -10px;
+  }
+}
+
+@media only screen and (max-width: 1500px) {
+  .nav__links {
+    position: relative;
+    right: 40px;
+  }
+  .search_bar {
+    position: absolute;
+    left: -265px;
+    top: 70px;
+    padding: 10px 20px 10px 100px;
+  }
+
+  .search-button {
+    left: -30px;
+    top: 78px;
+    padding: 0px 0px 0px 0px;
   }
 }
